@@ -5,9 +5,9 @@ INCLUDE=-I/home/czl/Workspace/glib/libs/include \
 LIBS=-L/home/czl/Workspace/glib/libs/lib/ -lgobject-2.0 -lglib-2.0
 CC = gcc
 all:
-	$(CC) -c boy.c ${INCLUDE}
-	$(CC) -c man.c ${INCLUDE}
-	$(CC) -c main.c ${INCLUDE}
+	$(CC) -g3 -c boy.c ${INCLUDE}
+	$(CC) -g3 -c man.c ${INCLUDE}
+	$(CC) -g3 -c main.c ${INCLUDE}
 	$(CC) -g3 -o simple main.o boy.o man.o  ${LIBS}
 clean:
 	-rm -fr *.o simple
