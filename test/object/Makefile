@@ -8,6 +8,6 @@ all:
 	$(CC) -c boy.c ${INCLUDE}
 	$(CC) -c man.c ${INCLUDE}
 	$(CC) -c main.c ${INCLUDE}
-	$(CC) -o simple main.o boy.o man.o  ${LIBS}
+	$(CC) -g3 -o simple main.o boy.o man.o  ${LIBS}
 clean:
 	-rm -fr *.o simple
