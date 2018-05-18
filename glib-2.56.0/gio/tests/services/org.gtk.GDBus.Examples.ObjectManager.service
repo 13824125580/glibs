@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gtk.GDBus.Examples.ObjectManager
+Exec=/home/czl/Workspace/glib/glib-2.56.0/gio/tests/gdbus-example-objectmanager-server
